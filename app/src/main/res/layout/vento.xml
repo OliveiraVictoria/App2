@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41009688">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="392dp"
+        android:layout_height="116dp"
+        android:text="Temporal inesperado com fortes rajadas de vento causa queda de árvores e destelhamento no Oeste Paulista"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="396dp"
+        android:layout_height="50dp"
+        android:text="Defesa Civil alerta que a temperatura máxima poderá chegar a 44ºC na região de Presidente Prudente (SP) na próxima sexta-feira (17)."
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="266dp"
+        app:srcCompat="@drawable/ventinho"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="369dp"
+        android:layout_height="92dp"
+        android:text="Um temporal inesperado com fortes rajadas de vento provocou estragos em diversas cidades da região de Presidente Prudente (SP) na tarde desta segunda-feira (13)."
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="369dp"
+        android:layout_height="84dp"
+        android:text="Em Lucélia (SP), oito árvores caíram e uma casa ficou danificada. Segundo relatos de moradores, a força do vento surpreendeu a todos. A Defesa Civil foi acionada para auxiliar nas ocorrências e não houve registro de feridos."
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="369dp"
+        android:layout_height="66dp"
+        android:text="Uma chuva de granizo também surpreendeu os moradores de Regente Feijó (SP), por volta das 15h. Por fim, em Teodoro Sampaio (SP), também choveu ao longo da tarde. Não houve registros de danos materiais ou à vida."
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="512dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
